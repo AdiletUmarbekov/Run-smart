@@ -1,0 +1,8 @@
+.footer {
+  padding: 20px;
+}
+.footer__block-red {
+  width: 460px;
+  height: 270px;
+  background-color: #C70101;
+}

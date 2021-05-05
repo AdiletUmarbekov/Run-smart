@@ -1,0 +1,35 @@
+.review{
+  display: flex;
+  flex-direction: row;
+  &__title{
+    font-family: "Museo Sans Cyrl 700", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+  }
+
+  &__block1 {
+    display: flex;
+    margin-top: 56px;
+    margin-bottom: 90px;
+  }
+  &__text-block{
+
+
+  }
+  &__titlename{
+    font-family: "Museo Sans Cyrl 700", sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  &__Psubtitle{
+    @include text($Museo300,14px,#646464);
+    margin-bottom: 12px;
+  }
+  &__revtitle{
+    @include text($Museo300,16px,#000);
+  }
+  &__block-img1{
+    margin-right: 61px;
+  }
+}

@@ -1,0 +1,8 @@
+$Museo700 : "Museo Sans Cyrl 700", sans-serif;
+$Museo500 : "Museo Sans Cyrl 500", sans-serif;
+$Museo300 : "Museo Sans Cyrl 300", sans-serif;
+@mixin text($ff,$fs,$cr){
+  font-family:$ff ;
+  font-size: $fs;
+  color:$cr;
+}

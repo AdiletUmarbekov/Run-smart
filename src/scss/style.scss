@@ -1,0 +1,50 @@
+@import "../fonts/Museo/stylesheet.css";
+@import "../fonts/maryed/stylesheet.css";
+@import "../libs/bootsrap/bootstrap-grid.min.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 942px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.goTop{
+    width: 100px;
+    height: 25px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-family:"Museo Sans Cyrl 500", sans-serif;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+    display: none;
+    z-index: 4;
+}
+p{
+    margin: 0;
+}
+
+@import "text";
+@import "header";
+@import "home";
+@import "run";
+@import "consult";
+@import "slider";
+@import "slide";
+@import "catalog1";
+@import "review";
+@import "footer";
+@import "overlay";
+@import "media";
+
